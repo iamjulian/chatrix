@@ -3,7 +3,7 @@ import styled from "styled-components";
 import ChatIcon from "@material-ui/icons/Chat";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import { IconButton } from "@material-ui/core";
-import SearchIcon from "@material-ui/icons/search";
+import SearchIcon from "@material-ui/icons/Search";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useCollection } from "react-firebase-hooks/firestore";
 import { auth, db } from "../firebase";
